@@ -1,0 +1,115 @@
+/* Teal/Green gradient Hero background */
+.VPHome {
+  background: linear-gradient(135deg, #0a1a14 0%, #0d2818 50%, #0a1a14 100%);
+  padding: 2rem 0;
+}
+
+/* Title gradient text */
+.VPHero .name {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  font-size: 1.5rem;
+  color: #a8f0e0;
+}
+
+.VPHero .tagline {
+  color: #7fc9b8;
+  font-size: 1.1rem;
+}
+
+/* Feature cards */
+.VPFeature {
+  background: linear-gradient(135deg, rgba(0, 184, 148, 0.08) 0%, rgba(0, 206, 201, 0.05) 100%) !important;
+  border: 1px solid rgba(0, 184, 148, 0.2) !important;
+}
+
+.VPFeature .title {
+  color: #00b894 !important;
+}
+
+/* Nav */
+.VPNav {
+  background: rgba(10, 26, 20, 0.95) !important;
+  border-bottom: 1px solid rgba(0, 184, 148, 0.15) !important;
+}
+
+.VPNavBarTitle .title {
+  color: #00b894 !important;
+}
+
+/* Sidebar */
+.VPSidebar {
+  background: rgba(10, 26, 20, 0.9) !important;
+}
+
+.VPSidebarItem .text {
+  color: #a8f0e0 !important;
+}
+
+.VPSidebarItem.is-active > .item .text {
+  color: #00b894 !important;
+}
+
+/* Code blocks */
+.vp-code-group .tabs {
+  background: rgba(0, 184, 148, 0.1) !important;
+  border-bottom: 1px solid rgba(0, 184, 148, 0.2) !important;
+}
+
+.vp-code-group .tab {
+  color: #7fc9b8 !important;
+}
+
+.vp-code-group .tab.active {
+  color: #00b894 !important;
+  border-bottom: 2px solid #00b894 !important;
+}
+
+/* Custom blocks */
+.custom-block.tip {
+  border-color: #00b894 !important;
+  background: rgba(0, 184, 148, 0.05) !important;
+}
+
+.custom-block.tip .custom-block-title {
+  color: #00b894 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a1a14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00b894;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00cec9;
+}
+
+/* Footer */
+.VPFooter {
+  background: rgba(10, 26, 20, 0.95) !important;
+  border-top: 1px solid rgba(0, 184, 148, 0.15) !important;
+}
+
+/* Dark mode overrides */
+.dark .VPHero .name {
+  background: linear-gradient(135deg, #00b894 0%, #55efc4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
